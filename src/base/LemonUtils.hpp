@@ -30,9 +30,17 @@
 	if (json.contains("___x") && json["___x"].isString())                                                    \
 		___x = json["___x"].toString().split(QLatin1Char(';'), QString::SkipEmptyParts);
 #endif
+#define READ_JSON_OBJECT(___x)                                                                               \
+	if (json.contains("___x") && json["___x"].isObject()) {                                                  \
+		___x.read(json["___x"].toObject());                                                                  \
+	}
 
 #define WRITE_JSON(___x) json["___x"] = ___x;
 #define WRITE_JSON_STRLIST(___x) json["___x"] = ___x.join(QLatin1Char(';'));
+#define WRITE_JSON_OBJECT(___x)                                                                              \
+	QJsonObject _##___x;                                                                                     \
+	judgeConfig.write(_##___x);                                                                              \
+	json["___x"] = _##___x;
 
 namespace Lemon::common {
 
