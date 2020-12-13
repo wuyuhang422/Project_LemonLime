@@ -1178,15 +1178,15 @@ Depends: </source>
     </message>
     <message>
         <source>Correct answer</source>
-        <translation>答案正确</translation>
+        <translation>通过</translation>
     </message>
     <message>
         <source>Wrong answer</source>
-        <translation>答案错误</translation>
+        <translation>反对</translation>
     </message>
     <message>
         <source>Partly correct</source>
-        <translation>答案部分正确</translation>
+        <translation>持保留意见</translation>
     </message>
     <message>
         <source> %1 ms</source>
@@ -1194,12 +1194,12 @@ Depends: </source>
         <translation> %1 ms</translation>
     </message>
     <message>
-        <source>  %1 Pt</source>
-        <translation>  %1 Pt</translation>
+        <source>  %1 票</source>
+        <translation>  %1 票</translation>
     </message>
     <message>
         <source>Time limit exceeded</source>
-        <translation>超过时间限制</translation>
+        <translation>未按表决器</translation>
     </message>
     <message>
         <source>Memory limit exceeded</source>
@@ -1207,15 +1207,15 @@ Depends: </source>
     </message>
     <message>
         <source>Cannot start program</source>
-        <translation>程序不能运行</translation>
+        <translation>无法联系到代表</translation>
     </message>
     <message>
         <source>File error</source>
-        <translation>文件错误</translation>
+        <translation>未接受到表决意见</translation>
     </message>
     <message>
         <source>Run time error</source>
-        <translation>运行时错误</translation>
+        <translation>弃权</translation>
     </message>
     <message>
         <source> %1 MB</source>
@@ -1223,7 +1223,7 @@ Depends: </source>
     </message>
     <message>
         <source>Presentation Error</source>
-        <translation>格式错误</translation>
+        <translation>选票填写格式错误</translation>
     </message>
     <message>
         <source>Output Limit Exceeded</source>
@@ -1256,11 +1256,11 @@ Depends: </source>
     </message>
     <message>
         <source>Start judging task %1</source>
-        <translation>开始测试试题 %1</translation>
+        <translation>开始测试分会场 %1</translation>
     </message>
     <message>
         <source>Score of Task %1 : </source>
-        <translation>题目 %1 分数： </translation>
+        <translation>会场 %1 得票： </translation>
     </message>
     <message>
         <source>%1 / %2
@@ -1270,15 +1270,15 @@ Depends: </source>
     </message>
     <message>
         <source>Start judging contestant %1</source>
-        <translation>开始测试选手 %1</translation>
+        <translation>开始表决候选人 %1</translation>
     </message>
     <message>
         <source>Total score of %1 : </source>
-        <translation>选手 %1 总分： </translation>
+        <translation>%1 得票： </translation>
     </message>
     <message>
         <source>Cannot find valid source file</source>
-        <translation>未找到选手程序</translation>
+        <translation>候选人未出席</translation>
     </message>
     <message>
         <source>Compile error</source>
